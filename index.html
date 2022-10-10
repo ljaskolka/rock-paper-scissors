@@ -9,23 +9,32 @@
     <link rel="shortcut icon" href="#" />
 </head>
 <body>
-    
     <div class="header">
         <p class="title">ROCK PAPER SCISSORS</p>
     </div>
+
+
+    <div class="running-score">
+        <span class="player-score">Player Score</span><br>
+        <span class="computer-score">Computer Score</span>
+    </div>
     
+
     <div class="computer-choose">
-        <div class="rock"><img src="images/rock.png" id="pc-rock"></div>
-        <div class="paper"><img src="images/paper.png" id="pc-paper"></div>
-        <div class="scissors"><img src="images/scissors.png" id="pc-scissors"></div>
+        <div class="pc-rock"><img src="images/rock.png"></div>
+        <div class="pc-paper"><img src="images/paper.png"></div>
+        <div class="pc-scissors"><img src="images/scissors.png"></div>
     </div>
 
+    <div class="outcome" id="outcome-span">
+    </div>
 
     <div class="player-choose" id="player-choose">
-        <div class="rock"><img src="images/rock.png" id="rock"></div>
-        <div class="paper"><img src="images/paper.png" id="paper"></div>
-        <div class="scissors"><img src="images/scissors.png" id="scissors"></div>
+        <input type="image" src="images/rock.png" class="rock"/>
+        <input type="image" src="images/paper.png" class="paper"/>
+        <input type="image" src="images/scissors.png" class="scissors"  />
     </div>
+
 
     <script src="myScript.js"></script>
 </body>
