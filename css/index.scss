@@ -68,6 +68,14 @@ body {
 	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+.message {
+  display: none;
+  justify-content: center;
+  margin-top: 50%;
+  font-size: 2rem;
+  color: red;
+  background-color: black;
+}
 
 
  @-webkit-keyframes slide-top {
